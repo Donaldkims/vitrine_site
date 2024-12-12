@@ -1,0 +1,17 @@
+.carousel-item{
+    height: 30rem;
+}
+
+.carousel-item img{
+    height: 30rem;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+@media screen and (max-width:900px) {
+    .carousel-item, .carousel-item img{
+        height: auto;
+    }
+    
+}
+
